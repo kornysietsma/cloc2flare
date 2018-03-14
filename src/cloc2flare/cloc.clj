@@ -19,9 +19,8 @@
   [input]
   (for [[name data] input
         :when (not (#{"SUM" "header"} name)) ]
-    (merge
-      {:filename (normalize name)}
-      (keywordize-keys data))))
+      {:filename (normalize name)
+      :cloc (keywordize-keys data)}))
 
 (defn convert-yaml-to-flare "convert input yaml to output flare data"
   [^Reader in-file ^Writer out-file]
