@@ -9,7 +9,8 @@ for use in d3 visualisations
 produces a JSON Flare file as standard output.
 
 This is easiest if you have an uberjar so you don't need to understand clojure and leiningen -
-once I have github releases sorted out, you can download a jar file and run:
+you can download a `cloc2release.jar` file from this project's releases page
+at https://github.com/kornysietsma/cloc2flare/releases and then:
 
 `cloc . --by-file --yaml --quiet | java -jar cloc2flare.jar > output.json`
 
