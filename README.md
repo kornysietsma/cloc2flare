@@ -1,3 +1,5 @@
+**ARCHIVED** this is part of my older code tools - see https://kornysietsma.github.io/polyglot-tools-docs/ for latest stuff.
+
 # cloc2flare
 
 A Clojure library designed to convert cloc's yml format to flare nested json
